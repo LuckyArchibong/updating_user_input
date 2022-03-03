@@ -1,0 +1,29 @@
+body{
+  background-color: papayawhip;
+}
+
+#statement{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.parent{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 2px solid rgb(0, 92, 197);
+  color: rgba(0, 38, 255, 0.6);
+  box-shadow: 2px 2px 5px rgba(0, 29, 190, 0.4);
+  border-radius: 15px;
+  padding: 3px 10px;
+  display: inline-block;
+  cursor: pointer;
+}
